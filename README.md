@@ -9,11 +9,12 @@
 ![Image Processing](https://img.shields.io/badge/Images-Pillow-8A2BE2)
 ![Privacy](https://img.shields.io/badge/Processing-Local--Only-2E7D32)
 ![License](https://img.shields.io/badge/License-MIT-green)
-
+![alt text](image.png)
 > **PDF Forge Studio** is a local Windows desktop application designed for practical PDF workflows where documents should remain on the user's machine.
 
-## Overview
+![alt text](image-2.png)
 
+## Overview
 PDF Forge Studio provides a focused set of common PDF operations through a simple desktop UI:
 
 - PDF compression with selectable quality profiles
