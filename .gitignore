@@ -43,15 +43,6 @@ logs/
 Backups/
 Output/
 
-# Local PDF/image test files
-*.pdf
-*.png
-*.jpg
-*.jpeg
-*.webp
-*.tif
-*.tiff
-
 # Local configuration / secrets
 .env
 .env.*
