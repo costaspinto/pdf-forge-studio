@@ -1,0 +1,60 @@
+PDF FORGE STUDIO v2.1.1
+Developer: Costas Pinto
+READ BEFORE INSTALLING
+
+IMPORTANT WINDOWS SECURITY NOTE
+--------------------------------
+If you downloaded this ZIP using a browser, Windows may mark the ZIP as
+coming from the Internet. Windows Smart App Control / Defender can then
+block scripts inside it.
+
+DO NOT disable Smart App Control.
+
+Before extracting:
+1. Right-click PDF_Forge_Studio_v2.1.1.zip
+2. Select Properties.
+3. On the General tab, if you see "Unblock", tick it.
+4. Click Apply, then OK.
+5. Extract the ZIP.
+6. Keep PDF_Forge_Studio.py and Install_PDF_Forge_Studio.cmd together.
+7. Double-click Install_PDF_Forge_Studio.cmd.
+
+If there is NO Unblock checkbox and Windows blocks the installer, do not
+try to bypass the security control. Use the local-source method described
+below.
+
+LOCAL SOURCE METHOD
+-------------------
+Open PowerShell in the extracted folder and run:
+
+python -m pip install pymupdf pillow
+python .\PDF_Forge_Studio.py
+
+If Python is not installed, install it from the official python.org
+installer, then reopen PowerShell.
+
+WHY THE INSTALLER MAY HAVE FAILED BEFORE
+----------------------------------------
+The earlier version depended on Windows refreshing PATH immediately after
+Python installation. Windows does not always refresh the current CMD
+process. v2.1 detects both python.exe and the py launcher and gives a
+clear message instead of silently failing.
+
+FILES
+-----
+PDF_Forge_Studio.py              Main application
+Install_PDF_Forge_Studio.cmd     Installer / launcher
+README.txt                       Documentation
+READ_BEFORE_INSTALL.txt          This file
+
+STORAGE
+-------
+Downloads\PDF_Forge_Studio\Output
+Downloads\PDF_Forge_Studio\Backups
+Downloads\PDF_Forge_Studio\Logs
+
+SECURITY
+--------
+The application does not disable or bypass Smart App Control.
+It does not upload PDFs.
+Original files are not overwritten by compression.
